@@ -22,7 +22,7 @@ const chartOptions = reactive({
 })
 </script>
 <template>
-    <div class="lg:hidden fixed inset-x-0 bottom-0 z-40">
+    <div class="md:hidden fixed inset-x-0 bottom-0 z-40">
         <div :class="[showData ? 'max-h-[100svh]' : 'max-h-0', 'h-min duration-700 w-full overflow-hidden bg-white rounded-t-2xl']">
             <div class="flex flex-col pb-3 px-5 divide-y divide-primary divide-dashed">
                 <div @click="stunting.toggleShowData" class="flex flex-row w-full py-3 justify-between">
